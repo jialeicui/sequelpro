@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <development version="5100" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6751"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -1029,8 +1028,8 @@ CQ
                                     <action selector="showMySQLHelp:" target="-1" id="916"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="MySQL Help for Word" keyEquivalent="h" id="nXE-rI-RyI">
-                                <modifierMask key="keyEquivalentModifierMask" control="YES"/>
+                            <menuItem title="MySQL Help for Word" id="nXE-rI-RyI">
+                                <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="showMySQLHelpForCurrentWord:" target="-1" id="BUY-hF-nKy"/>
                                 </connections>
